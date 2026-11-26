@@ -1,13 +1,13 @@
 {% set name = "responsibleai-text" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/responsibleai_text-{{ version }}.tar.gz
-  sha256: 030912182530f8a6a74c3f435cd651dc466dd6cc28ca7505f054558183b9cebf
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/responsibleai_text-{{ version }}.tar.gz
+  sha256: 67499822b7f150a16a02a510a78acabf366d0a13c8d60c3b335d448b3eb4e193
 
 build:
   noarch: python
